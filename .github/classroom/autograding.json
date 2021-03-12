@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"create author using non\\-default constructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"create bookstore using non\\-default constructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"resize bookstore storage capacity\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"add new books to the bookstore\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 5",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"destruction of the bookstore instance\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 6",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"create book using non\\-default constructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Exercise 7",
+      "setup": "git submodule update --init --recursive && mkdir -p build && cd build && cmake .. && cmake --build .",
+      "run": "cd build && ctest -VVV -R \"add author to the existing book\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
