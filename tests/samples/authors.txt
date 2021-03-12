@@ -1,0 +1,6 @@
+J.Tolkien 81 0
+J.K.Rowling 55 1
+S.King 73 0
+W.Shakespeare 436 0
+J.Austen 246 1
+F.Dostoevsky 200 0
